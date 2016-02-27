@@ -1,0 +1,6 @@
+steps:
+  - name: install drupal
+    plugin: Drupal
+    runInstall: true
+    profileName: standard
+    clearCaches: false
