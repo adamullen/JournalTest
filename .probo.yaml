@@ -4,3 +4,5 @@ steps:
     runInstall: true
     profileName: standard
     clearCaches: false
+  - name: change file perms
+    command: "chown /var/www/html/core/sites/default/settings.php www-data ; chown /var/www/html/core/sites/default/files www-data"
